@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-10-25
+
 ### Added
 
 - **Configurable connect timeout and server output limits (#430)** — three values that were
@@ -20,9 +22,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   behavior is unchanged. README (EN/KO), `TOOLS.md`, `MULTI_CONNECTION.md` and
   `TROUBLESHOOTING.md` (EN/KO) and the `.mcpb/server.json` manifest list them.
 
+* **config:** make the connect timeout and server output limits configurable ([#454](https://github.com/cubrid-lab/cubrid-mcp-server/issues/454)) ([f65e548](https://github.com/cubrid-lab/cubrid-mcp-server/commit/f65e548348100494510838ec731ed474a889a159))
+
 ### Documentation
 
 - **README and docs site show the 2026-10-25 brand icon (#456)** — the icon URL pinned in the README, its translations and `mkdocs.yml` (logo and favicon) now points at the approved CUBRID Lab brand revision `8aa81b7`. Documentation only; behavior is unchanged.
+
+* **readme:** repin the brand icon to the 2026-10-25 brand revision ([#457](https://github.com/cubrid-lab/cubrid-mcp-server/issues/457)) ([d35e4a5](https://github.com/cubrid-lab/cubrid-mcp-server/commit/d35e4a51bffa97bd4e51cba9f891d1578a8bf520))
 
 ### CI
 
